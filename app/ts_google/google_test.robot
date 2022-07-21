@@ -16,12 +16,3 @@ Go To Google - positive - feature1
 
     Create Driver with Custom Options    ${browser}
     Go To           ${url}
-
-
-Go To Google - fail - feature2
-    [Tags]    fail    feature2
-
-
-    Create Driver with Custom Options    ${browser}
-    Go To           ${url}
-    Click Button     id:next
